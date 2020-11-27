@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Calculadora">
+
+
+    <LinearLayout
+        android:layout_width="386dp"
+        android:layout_height="713dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="21dp"
+        android:layout_marginRight="4dp">
+
+        <RelativeLayout
+            android:layout_width="680dp"
+            android:layout_height="141dp">
+
+            <EditText
+                android:id="@+id/Resultado"
+                android:layout_width="407dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#328550"
+                android:text="1"
+                android:textColor="#FAF7F8" />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#328550"
+                android:text="2"
+                android:textColor="#FAF7F8" />
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#328550"
+                android:text="3"
+                android:textColor="#FAF7F8" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#328550"
+                android:text="4"
+                android:textColor="#FAF7F8" />
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#328550"
+                android:text="5"
+                android:textColor="#FAF7F8" />
+
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#328550"
+                android:text="6"
+                android:textColor="#FAF7F8" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#328550"
+                android:text="7"
+                android:textColor="#FAF7F8" />
+
+            <Button
+                android:id="@+id/btn8"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#328550"
+                android:text="8"
+                android:textColor="#FAF7F8" />
+
+            <Button
+                android:id="@+id/btn9"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#328550"
+                android:text="9"
+                android:textColor="#FAF7F8" />
+
+            <Button
+                android:id="@+id/btn0"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#328550"
+                android:text="0"
+                android:textColor="#FAF7F8" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="83dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnSuma"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#21379F"
+                android:text="+"
+                android:textColor="#FAF7F8" />
+
+            <Button
+                android:id="@+id/btnResta"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#21379F"
+                android:text="-"
+                android:textColor="#FAF7F8" />
+
+            <Button
+                android:id="@+id/btnMul"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#21379F"
+                android:text="*"
+                android:textColor="#FAF7F8" />
+
+            <Button
+                android:id="@+id/btnDivision"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#21379F"
+                android:text="/"
+                android:textColor="#FAF7F8" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/Limpiar"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#75096F"
+                android:text="AC"
+                android:textColor="#FAF7F8" />
+
+            <Button
+                android:id="@+id/btnPunto"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#328550"
+                android:text="."
+                android:textColor="#FAF7F8" />
+
+            <Button
+                android:id="@+id/btnIgual"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#21379F"
+                android:text="="
+                android:textColor="#FAF7F8" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>
